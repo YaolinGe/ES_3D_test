@@ -38,10 +38,10 @@ def plotf3d(val, X, Y, Z):
     fig = go.Figure(data=go.Volume(
         x=X, y=Y, z=Z,
         value=val,
-        isomin=-1,
-        isomax=1,
-        opacity=0.1,
-        surface_count=25,
+        # isomin=-1,
+        # isomax=1,
+        opacity=0.4,
+        surface_count=250,
         colorscale='RdBu',
         # title = string
     ))
@@ -52,8 +52,8 @@ def plotf3d(val, X, Y, Z):
 
 
 
-# == Helper functions
-def buildcov3d(site_1, site_2, sig, corr_decay, noise):
+# == to build covariance matrix describing 3D covariance relation
+def buildcov3d(site_1, site_2, sig, corr_decay, noise, noise_true = True):
 
     """
     Generate spatial covariance matrix - Matern 3/2 or Squared exponential - Compared with Jo towards Matlab function
@@ -81,6 +81,9 @@ def buildcov3d(site_1, site_2, sig, corr_decay, noise):
 
 # anistropic : distance with scaling
     H = np.sqrt(np.subtract(np.dot(site_1, np.ones([3, n2])), np.dot(np.ones([n1, 3]), site_2.transpose())) ** 2)
+    '''
+    H = sqrt(sum((x1 - x2) ** 2 + (y1 - y2) ** 2 + (z1 - z2) ** 2))
+    '''
     # for i in range(n1):
     #     for j in range(n2):
     #         H[i][j] = np.sqrt((site_1[i][0] - site_2[i][0]) ** 2 +
@@ -89,10 +92,18 @@ def buildcov3d(site_1, site_2, sig, corr_decay, noise):
 
     # Calculating the Matern 3/2 Covariance
     matern = np.multiply(sig2 * np.add(1, c_range * H), np.exp(H * -c_range))
+    '''
+    matern = sig2 * (1 + c * H) * exp(- H * c)
+    '''
 
     # Adding empirical covariance and white noise (this is the case when only observation is happening)
-
-    cvm = matern + np.eye(matern.shape[0]) * noise
+    if noise_true:
+        cvm = matern + np.eye(matern.shape[0]) * noise
+    else:
+        cvm = matern
+    '''
+    only need to add noise when it is for x* or x_train, which data is given
+    '''
 
     # Return the co-variance matrix (cvm)
     return H, np.transpose(cvm)

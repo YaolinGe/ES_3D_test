@@ -25,7 +25,7 @@ noise_std = 0.05 # noise standard error
 noise = np.array([[noise_std ** 2, 0], [0, noise_std ** 2]])
 
 # sal std
-sig = 0.025 # salinity error
+sig = 0.025 # system error, random effect
 corr_range = 0.3 # 0.8 == 900m
 
 n1 = nx
@@ -54,18 +54,19 @@ xintercept = np.ones([n, 1])
 covars = np.hstack((xintercept, np.flipud(xv - 1), np.flipud(zv - 1))) # stack the vector to make it as [x0, x1, x2]
 ## ===== ##
 '''Note
-Here covars only takes y direction as the major direction, so that the rest of 
+Here covars only takes y direction as the major direction, so that the rest can be arranged as the distance with respect to one point
+To have distance decay so to make it as a regression problem
 '''
 
 # compute prior & true field
-mu_t = np.dot(covars, [[5.8], [0.085], [0.07]])
-mu_s = np.dot(covars, [[29.0], [0.136], [0.12]])
-mu_prior = np.concatenate((mu_t, mu_s))
+mu_t_prior = np.dot(covars, [[5.8], [0.085], [0.07]])
+mu_s_prior = np.dot(covars, [[29.0], [0.136], [0.12]])
+mu_prior = np.concatenate((mu_t_prior, mu_s_prior))
 prior = np.array(mu_prior)
 
 # true field
-mu_t = np.dot(covars, beta_t)
-mu_s = np.dot(covars, beta_s)
+mu_t = np.dot(covars, beta_t) # beta_t, is assumed to be the true coeff
+mu_s = np.dot(covars, beta_s) # beta_s is assumed to be the true beta_s
 mu_stack = np.concatenate((mu_t, mu_s)) # true field
 
 # compute covariance
@@ -73,22 +74,16 @@ mu_stack = np.concatenate((mu_t, mu_s)) # true field
 # C0d = [[1, sig_st], [sig_st, 1]]
 # Ct_true_field = np.kron(C0d, Cd)
 
-H, C = buildcov3d(sites, sites, sig, corr_range, noise_std ** 2)
-C0 = [[1, sig_st], [sig_st, 1]]
-# Cd = [[1, sig_d1], [sig_d1, 1]]
-Ct = np.kron(C0, C)
-# Ctd = np.kron(Cd, Ct)
-# Ct_comp = np.kron(C, C0) # only used for comparison
+H, C = buildcov3d(sites, sites, sig, corr_range, noise_std ** 2, noise_true=False)
+C0 = [[1, sig_st], [sig_st, 1]] # correlation matrix for salinity & temperature
+Ct = np.kron(C0, C) # final matrix considering depth variation & salinity & temperature correlation
 
-# plotf(np.copy(Ctd), "cov")
-# plotf(np.copy(Ct_comp), "cov")
-plotf(np.copy(Ct), "Ct")
-plotf(np.copy(C), "C")
-plotf(np.copy(H), "H")
+plotf(np.copy(Ct), "Covariance matrix for depth & salinity & temperature correlation")
+plotf(np.copy(C), "Pure matern matrix without salinty & temp correlation, without kronecker")
+plotf(np.copy(H), "Pure euclidean distance matrix") # distance matrix
 
-#%%
-plotf3d(prior[0:n], xv, yv, zv, "temp prior")
-plotf3d(prior[n:], xv, yv, zv, "salinity prior")
+plotf3d(prior[0:n], xv, yv, zv)
+# plotf3d(prior[n:], xv, yv, zv)
 # a = np.arange(0, 32).reshape(2, 4, 4)
 # b = a.flatten()
 # z, x, y = 1, 2, 3
