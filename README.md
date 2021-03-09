@@ -6,3 +6,8 @@ The following scripts are only used for testing:
 [GP1D](GP_1D.py)
 
 
+# Questions need to ask
+---
+- [ ] why maximum likelihood has singular matrix, but it can still work out the solution 
+- [ ]
+- [ ]
