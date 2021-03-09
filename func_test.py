@@ -1060,3 +1060,36 @@ for alpha in [-10.0, -3.0, -2.0]:
     plt.show()
 
 
+#%% testing of genertating random GP
+import numpy as np
+import matplotlib.pyplot as plt
+
+n = 100
+t = np.arange(0, n).reshape(-1, 1)
+mu = np.random.rand(n).reshape(-1, 1)
+sigma2 = 0.5
+phiM = 0.19
+H = np.zeros([n, n])
+for i in range(n):
+    for j in range(n):
+        H[i, j] = np.abs(t[i] - t[j])
+
+Sigma = sigma2 * (1 + phiM * H) * np.exp(-phiM * H)
+L = np.linalg.cholesky(Sigma)
+z = np.random.randn(n).reshape(-1, 1)
+x = mu + np.dot(L, z)
+plt.figure()
+plt.plot(x)
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+

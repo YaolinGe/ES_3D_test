@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6cdcca9b-e701-417d-85e2-485071e43306" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es_10.coverage" NAME="sensitivity_analysis_es_10 Coverage Results" MODIFIED="1554715968130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$supporting_functions.coverage" NAME="supporting_functions Coverage Results" MODIFIED="1554710260588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es_7.coverage" NAME="sensitivity_analysis_es_7 Coverage Results" MODIFIED="1554715959204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$plot_simdata.coverage" NAME="plot_simdata Coverage Results" MODIFIED="1553759923332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Evaluation_results/sim_data" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es_3.coverage" NAME="sensitivity_analysis_es_3 Coverage Results" MODIFIED="1554715951683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$read_analysis.coverage" NAME="read_analysis Coverage Results" MODIFIED="1553519660873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es_4.coverage" NAME="sensitivity_analysis_es_4 Coverage Results" MODIFIED="1554715953558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es_2.coverage" NAME="sensitivity_analysis_es_2 Coverage Results" MODIFIED="1554715949261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es_5.coverage" NAME="sensitivity_analysis_es_5 Coverage Results" MODIFIED="1554715955122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es_8.coverage" NAME="sensitivity_analysis_es_8 Coverage Results" MODIFIED="1554715961047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$plot_analysis.coverage" NAME="plot_analysis Coverage Results" MODIFIED="1553843429558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Evaluation_results/analysis_data" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es_9.coverage" NAME="sensitivity_analysis_es_9 Coverage Results" MODIFIED="1554715964662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$Eval_Strat_v0__1_.coverage" NAME="Eval_Strat_v0 (1) Coverage Results" MODIFIED="1554712365686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/BackUp/Linux/PycharmProjects/Excursion_Sets - Old" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es_6.coverage" NAME="sensitivity_analysis_es_6 Coverage Results" MODIFIED="1554715957077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$Eval_Strat.coverage" NAME="Eval_Strat Coverage Results" MODIFIED="1554715556356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es.coverage" NAME="sensitivity_analysis_es Coverage Results" MODIFIED="1554715926370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sensitivity_analysis_es.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Eval_Strat.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="416" column="58" selection-start-line="416" selection-start-column="58" selection-end-line="416" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/es_cases.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#=</find>
+      <find>analysis</find>
+      <find>0.1</find>
+      <find>route</find>
+      <find>0.0138</find>
+      <find>Sig</find>
+      <find>del</find>
+      <find>#</find>
+      <find>#=#=#=#=#</find>
+      <find>Config</find>
+      <find>coord</find>
+      <find>kml</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>analysis_cor</replace>
+      <replace>0.070</replace>
+      <replace>0.11</replace>
+      <replace>0.085</replace>
+      <replace>0.0138</replace>
+      <replace>0.138</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/read_analysis.py" />
+        <option value="$PROJECT_DIR$/Evaluation_results/analysis_data/plot_analysis.py" />
+        <option value="$PROJECT_DIR$/Evaluation_results/sim_data/plot_simdata.py" />
+        <option value="$PROJECT_DIR$/Evaluation_results/off_center_analysis_1.py" />
+        <option value="$PROJECT_DIR$/off_centre_analysis_5.py" />
+        <option value="$PROJECT_DIR$/off_center_analysis_4.py" />
+        <option value="$PROJECT_DIR$/off_center_analysis_3.py" />
+        <option value="$PROJECT_DIR$/off_center_analysis_2.py" />
+        <option value="$PROJECT_DIR$/off_center_analysis_1.py" />
+        <option value="$PROJECT_DIR$/Evaluation_results/analysis_data/plot_analysis_off-centre.py" />
+        <option value="$PROJECT_DIR$/sensitivity_analysis_es_6.py" />
+        <option value="$PROJECT_DIR$/sensitivity_analysis_es_7.py" />
+        <option value="$PROJECT_DIR$/sensitivity_analysis_es_8.py" />
+        <option value="$PROJECT_DIR$/sensitivity_analysis_es_9.py" />
+        <option value="$PROJECT_DIR$/sensitivity_analysis_es_10.py" />
+        <option value="$PROJECT_DIR$/Evaluation_results/analysis_data/plot_analysis_v2.py" />
+        <option value="$PROJECT_DIR$/supporting_functions.py" />
+        <option value="$PROJECT_DIR$/es_strategies.py" />
+        <option value="$PROJECT_DIR$/es_cases.py" />
+        <option value="$PROJECT_DIR$/sensitivity_analysis_es.py" />
+        <option value="$PROJECT_DIR$/sensitivity_analysis_es_2.py" />
+        <option value="$PROJECT_DIR$/sensitivity_analysis_es_3.py" />
+        <option value="$PROJECT_DIR$/sensitivity_analysis_es_4.py" />
+        <option value="$PROJECT_DIR$/sensitivity_analysis_es_5.py" />
+        <option value="$PROJECT_DIR$/Evaluation_results/analysis_data/plot_sensitivity_analysis.py" />
+        <option value="$PROJECT_DIR$/Evaluation_results/analysis_data/plot_strategy_analysis.py" />
+        <option value="$PROJECT_DIR$/Eval_Strat.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="467" />
+    <option name="y" value="47" />
+    <option name="width" value="1456" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Excursion_Sets - New" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Excursion_Sets - New" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Excursion_Sets - New" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Excursion_Sets - New" type="462c0819:PsiDirectoryNode" />
+              <item name="Evaluation_results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Excursion_Sets - New" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Excursion_Sets - New" type="462c0819:PsiDirectoryNode" />
+              <item name="Evaluation_results" type="462c0819:PsiDirectoryNode" />
+              <item name="analysis_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Excursion_Sets - New" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Excursion_Sets - New" type="462c0819:PsiDirectoryNode" />
+              <item name="Evaluation_results" type="462c0819:PsiDirectoryNode" />
+              <item name="plots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Excursion_Sets - New" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Excursion_Sets - New" type="462c0819:PsiDirectoryNode" />
+              <item name="Evaluation_results" type="462c0819:PsiDirectoryNode" />
+              <item name="plots" type="462c0819:PsiDirectoryNode" />
+              <item name="look-ahead" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Excursion_Sets - New" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Excursion_Sets - New" type="462c0819:PsiDirectoryNode" />
+              <item name="Evaluation_results" type="462c0819:PsiDirectoryNode" />
+              <item name="plots" type="462c0819:PsiDirectoryNode" />
+              <item name="myopic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Excursion_Sets - New" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Excursion_Sets - New" type="462c0819:PsiDirectoryNode" />
+              <item name="Evaluation_results" type="462c0819:PsiDirectoryNode" />
+              <item name="plots" type="462c0819:PsiDirectoryNode" />
+              <item name="naive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Excursion_Sets - New" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Excursion_Sets - New" type="462c0819:PsiDirectoryNode" />
+              <item name="Evaluation_results" type="462c0819:PsiDirectoryNode" />
+              <item name="plots" type="462c0819:PsiDirectoryNode" />
+              <item name="static_zigzag" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Evaluation_results/analysis_data" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/sensitivity_analysis_es.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Googledrive\Pycharm Projects\Excursion_Sets - New\Evaluation_results\analysis_data" />
+      <recent name="D:\Googledrive\Pycharm Projects\Excursion_Sets - New\Evaluation_results\analysis_data\old" />
+      <recent name="$PROJECT_DIR$/Evaluation_results/analysis_data" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Googledrive\Pycharm Projects\Excursion_Sets - New\Evaluation_results\analysis_data" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="D:\Googledrive\Pycharm Projects\Excursion_Sets - New\Evaluation_results\sim_data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Eval_Strat">
+    <configuration name="Eval_Strat" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Excursion_Sets - New" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Eval_Strat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot_sensitivity_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Excursion_Sets - New" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Evaluation_results/analysis_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Evaluation_results/analysis_data/plot_sensitivity_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot_strategy_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Excursion_Sets - New" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Evaluation_results/analysis_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Evaluation_results/analysis_data/plot_strategy_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sensitivity_analysis_es_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Excursion_Sets - New" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sensitivity_analysis_es_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sensitivity_analysis_es_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Excursion_Sets - New" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sensitivity_analysis_es_5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.sensitivity_analysis_es_3" />
+      <item itemvalue="Python.sensitivity_analysis_es_5" />
+      <item itemvalue="Python.plot_sensitivity_analysis" />
+      <item itemvalue="Python.plot_strategy_analysis" />
+      <item itemvalue="Python.Eval_Strat" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Eval_Strat" />
+        <item itemvalue="Python.plot_sensitivity_analysis" />
+        <item itemvalue="Python.plot_strategy_analysis" />
+        <item itemvalue="Python.sensitivity_analysis_es_5" />
+        <item itemvalue="Python.sensitivity_analysis_es_3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6cdcca9b-e701-417d-85e2-485071e43306" name="Default Changelist" comment="" />
+      <created>1553160969577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553160969577</updated>
+      <workItem from="1553160970923" duration="26239000" />
+      <workItem from="1553754173550" duration="7673000" />
+      <workItem from="1553774010266" duration="8430000" />
+      <workItem from="1553840888272" duration="4528000" />
+      <workItem from="1553854539604" duration="452000" />
+      <workItem from="1553855004548" duration="1899000" />
+      <workItem from="1554111421500" duration="9015000" />
+      <workItem from="1554199774253" duration="6412000" />
+      <workItem from="1554210780527" duration="1214000" />
+      <workItem from="1554273563517" duration="19732000" />
+      <workItem from="1554448606040" duration="16652000" />
+      <workItem from="1554706824903" duration="11332000" />
+      <workItem from="1554974373746" duration="27000" />
+      <workItem from="1554974551025" duration="1426000" />
+      <workItem from="1555002834964" duration="16376000" />
+      <workItem from="1556088360784" duration="24426000" />
+      <workItem from="1556261291642" duration="84643000" />
+      <workItem from="1557124698412" duration="8333000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="248809000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2170947" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32927817" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29983792" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44489464" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3298217" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3298217" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" auto_hide="true" x="869" y="286" width="821" height="827" id="SciView" order="3" show_stripe_button="false" type="FLOATING" weight="0.3297189" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="JuliaSciView" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18034557" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32927817" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5514874" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44489464" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3298217" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" auto_hide="true" x="869" y="286" width="821" height="827" id="SciView" order="3" show_stripe_button="false" type="FLOATING" weight="0.3297189" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="JuliaSciView" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/read_analysis.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Evaluation_results/analysis_data/plot_strategy_analysis_off-centre.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/BackUp/Linux/PycharmProjects/Excursion_Sets - Old/Eval_Strat_v0.py</url>
+          <line>628</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Evaluation_results/analysis_data/plot_strategy_analysis_off-centre.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Eval_Strat.py</url>
+          <line>479</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Evaluation_results/analysis_data/plot_sensitivity_analysis.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$off_center_analysis_3.coverage" NAME="off_center_analysis_3 Coverage Results" MODIFIED="1554206022024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$plot_strategy_analysis.coverage" NAME="plot_strategy_analysis Coverage Results" MODIFIED="1557241332619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Evaluation_results/analysis_data" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es_8.coverage" NAME="sensitivity_analysis_es_8 Coverage Results" MODIFIED="1556014269584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$supporting_functions.coverage" NAME="supporting_functions Coverage Results" MODIFIED="1554636076576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$plot_analysis_off_centre.coverage" NAME="plot_analysis_off-centre Coverage Results" MODIFIED="1556013620436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Evaluation_results/analysis_data" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es_2.coverage" NAME="sensitivity_analysis_es_2 Coverage Results" MODIFIED="1557124735213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es_4.coverage" NAME="sensitivity_analysis_es_4 Coverage Results" MODIFIED="1557045330828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$off_center_analysis_1.coverage" NAME="off_center_analysis_1 Coverage Results" MODIFIED="1554210784405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es.coverage" NAME="sensitivity_analysis_es Coverage Results" MODIFIED="1557124721934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$off_center_analysis_4.coverage" NAME="off_center_analysis_4 Coverage Results" MODIFIED="1554210790664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es_5.coverage" NAME="sensitivity_analysis_es_5 Coverage Results" MODIFIED="1557124758325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es_6.coverage" NAME="sensitivity_analysis_es_6 Coverage Results" MODIFIED="1556014264896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$plot_simdata.coverage" NAME="plot_simdata Coverage Results" MODIFIED="1554114007315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Evaluation_results/sim_data" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es_9.coverage" NAME="sensitivity_analysis_es_9 Coverage Results" MODIFIED="1556014271888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es_10.coverage" NAME="sensitivity_analysis_es_10 Coverage Results" MODIFIED="1556014274366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$Eval_Strat_v0.coverage" NAME="Eval_Strat_v0 Coverage Results" MODIFIED="1554638299627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$plot_analysis_v2.coverage" NAME="plot_analysis_v2 Coverage Results" MODIFIED="1556015696767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Evaluation_results/analysis_data" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$Eval_Strat.coverage" NAME="Eval_Strat Coverage Results" MODIFIED="1557247230603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$off_center_analysis_2.coverage" NAME="off_center_analysis_2 Coverage Results" MODIFIED="1554210786810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$plot_sensitivity_analysis.coverage" NAME="plot_sensitivity_analysis Coverage Results" MODIFIED="1557242730217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Evaluation_results/analysis_data" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$off_centre_analysis_5.coverage" NAME="off_centre_analysis_5 Coverage Results" MODIFIED="1554210793415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es_7.coverage" NAME="sensitivity_analysis_es_7 Coverage Results" MODIFIED="1556014267498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Excursion_Sets___New$sensitivity_analysis_es_3.coverage" NAME="sensitivity_analysis_es_3 Coverage Results" MODIFIED="1557124744589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>print(graph_spatial_points)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wgs84_dist(graph_spatial_points[0, 0], graph_spatial_points[0, 1], graph_spatial_points[21, 0], graph_spatial_points[21, 1])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wgs84_dist(graph_spatial_points[0, 0], graph_spatial_points[0, 1], graph_spatial_points[100, 0], graph_spatial_points[100, 1])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wgs84_dist(graph_spatial_points[0, 0], graph_spatial_points[0, 1], graph_spatial_points[11, 0], graph_spatial_points[11, 1])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wgs84_dist(graph_node_pos[0][0],graph_node_pos[0][1], graph_node_pos[11][0], graph_node_pos[11][1])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wgs84_dist(graph_node_pos[0][0],graph_node_pos[0][1], graph_node_pos[12][0], graph_node_pos[12][1])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wgs84_dist(graph_node_pos[0][0],graph_node_pos[0][1], graph_node_pos[2][0], graph_node_pos[2][1])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wgs84_dist(graph_node_pos[0][0],graph_node_pos[0][1], graph_node_pos[1][0], graph_node_pos[1][1])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wgs84_dist(graph_node_pos[0][0],graph_node_pos[0][1], graph_node_pos[10][0], graph_node_pos[10][1])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wgs84_dist(graph_node_pos[0][0],graph_node_pos[0][1], graph_node_pos[11][0], graph_node_pos[11][1]))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>dist3 = []    dist3 = []     graph_node_pos = world_node_loc      for i in range(0, len(graph_node_pos) - 1):         dist3.append(             wgs84_dist(graph_node_pos[i][0], graph_node_pos[i][1], graph_node_pos[i + 1][0], graph_node_pos[i + 1][1]))
+graph_node_pos = world_node_loc
+for i in range(0, len(graph_node_pos) - 1):         dist3.append(
+    wgs84_dist(graph_node_pos[i][0], graph_node_pos[i][1], graph_node_pos[i + 1][0], graph_node_pos[i + 1][1]))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wgs84_dist(world_node_loc[55][1], world_node_loc[55][0], world_node_loc[54][1], world_node_loc[54][0])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wgs84_dist(world_node_loc[55][1], world_node_loc[55][0], world_node_loc[54][1], world_node_loc[54][0]))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>graph_node_points[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>plt.show()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>np.mean(dist)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>graph, graph_node_pos, graph_node_points = build_graph(graph_mesh_points, x_resolution, y_resolution)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(prev_evar - EVar) / num_of_cells_assimilated</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>routes[best_node_c][1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>np.floor(np.divide(route_dist, np.min(route_dist)))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/memory_profiler.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4606" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/matplotlib/cbook/__init__.py" />
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/matplotlib/axes/_base.py" />
+    <entry file="file://$PROJECT_DIR$/off_center_analysis_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#594#816#0" />
+            <element signature="e#831#1079#0" />
+            <element signature="e#1092#1322#0" />
+            <element signature="e#1334#1567#0" />
+            <element signature="e#1582#1839#0" />
+            <element signature="e#1852#2093#0" />
+            <element signature="e#2108#2357#0" />
+            <element signature="e#2375#2648#0" />
+            <element signature="e#2664#2921#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/off_center_analysis_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#594#816#0" />
+            <element signature="e#831#1079#0" />
+            <element signature="e#1092#1322#0" />
+            <element signature="e#1334#1567#0" />
+            <element signature="e#1582#1839#0" />
+            <element signature="e#1852#2093#0" />
+            <element signature="e#2108#2357#0" />
+            <element signature="e#2375#2648#0" />
+            <element signature="e#2664#2921#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation_results/sim_data/plot_simdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/off_center_analysis_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#594#816#0" />
+            <element signature="e#831#1079#0" />
+            <element signature="e#1092#1322#0" />
+            <element signature="e#1334#1567#0" />
+            <element signature="e#1582#1839#0" />
+            <element signature="e#1852#2093#0" />
+            <element signature="e#2108#2357#0" />
+            <element signature="e#2375#2648#0" />
+            <element signature="e#2664#2921#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/off_center_analysis_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#594#816#0" />
+            <element signature="e#831#1079#0" />
+            <element signature="e#1092#1322#0" />
+            <element signature="e#1334#1567#0" />
+            <element signature="e#1582#1839#0" />
+            <element signature="e#1852#2093#0" />
+            <element signature="e#2108#2357#0" />
+            <element signature="e#2375#2648#0" />
+            <element signature="e#2664#2921#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/off_centre_analysis_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="316" selection-start-line="316" selection-end-line="327" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#594#816#0" />
+            <element signature="e#831#1079#0" />
+            <element signature="e#1092#1322#0" />
+            <element signature="e#1334#1567#0" />
+            <element signature="e#1582#1839#0" />
+            <element signature="e#1852#2093#0" />
+            <element signature="e#2108#2357#0" />
+            <element signature="e#2375#2648#0" />
+            <element signature="e#2664#2921#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py" />
+    <entry file="file://$PROJECT_DIR$/Eval_Strat_v0.py" />
+    <entry file="file://$PROJECT_DIR$/Evaluation_results/plots/anim/static_north_0_0.png" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-732077044/scipy/stats/mvn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1092" />
+      </provider>
+    </entry>
+    <entry file="file://D:/BackUp/Linux/PycharmProjects/Excursion_Sets - Old/Eval_Strat_v0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5980">
+          <caret line="547" column="13" selection-start-line="547" selection-start-column="9" selection-end-line="547" selection-end-column="106" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#777#7265#0" />
+            <element signature="e#7414#10185#0" />
+            <element signature="e#10333#12285#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation_results/analysis_data/plot_strategy_analysis_off-centre.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="158" column="26" selection-end-line="201" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sensitivity_analysis_es_6.py" />
+    <entry file="file://$PROJECT_DIR$/sensitivity_analysis_es_7.py" />
+    <entry file="file://$PROJECT_DIR$/sensitivity_analysis_es_8.py" />
+    <entry file="file://$PROJECT_DIR$/read_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sensitivity_analysis_es_9.py" />
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sensitivity_analysis_es_10.py" />
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/pandas/plotting/_core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-723">
+          <caret line="3436" column="8" selection-start-line="3436" selection-start-column="8" selection-end-line="3436" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/BackUp/Linux/PycharmProjects/frontsearcher/graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19146">
+          <folding>
+            <element signature="e#0#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/BackUp/Linux/PycharmProjects/frontsearcher/fs_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="496" column="37" selection-start-line="496" selection-start-column="32" selection-end-line="496" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/BackUp/Linux/PycharmProjects/Remote Sensing and External Sources Plotting/parse_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/BackUp/Linux/PycharmProjects/frontsearcher/ARP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="1326" column="31" selection-start-line="1326" selection-start-column="28" selection-end-line="1326" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supporting_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="216" column="80" selection-start-line="216" selection-start-column="80" selection-end-line="216" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#119#0" expanded="true" />
+            <element signature="e#1036#3310#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation_results/plots/anim/myopic_0_1.png" />
+    <entry file="file://$PROJECT_DIR$/es_strategies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4472">
+          <caret line="173" column="105" selection-start-line="173" selection-start-column="105" selection-end-line="173" selection-end-column="105" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sensitivity_analysis_es_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sensitivity_analysis_es_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sensitivity_analysis_es_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sensitivity_analysis_es_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation_results/analysis_data/plot_strategy_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="132" column="4" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation_results/analysis_data/plot_sensitivity_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="40" column="112" selection-start-line="40" selection-start-column="112" selection-end-line="40" selection-end-column="112" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es_cases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sensitivity_analysis_es.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eval_Strat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="416" column="58" selection-start-line="416" selection-start-column="58" selection-end-line="416" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

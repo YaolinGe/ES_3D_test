@@ -31,14 +31,14 @@ corr_range = 0.3 # 0.8 == 900m
 n1 = nx
 n2 = ny
 n3 = nz
-n = n1 * n2 * n3
-nf = n1 * n2 # only consider the number of grid points in one layer
+n = n1 * n2 * n3 # total number of grid points
+nf = n1 * n2 # only consider the number of grid points in one layer. nf refers to n of flat layer
 
 x = np.arange(1, n1 + 1, 1)
 y = np.arange(1, n2 + 1, 1)
 z = np.arange(1, n3 + 1, 1)
 
-zz, yy, xx = np.mgrid[1:n3+1, 1:n2+1, 1:n1+1]
+zz, yy, xx = np.mgrid[1:n3+1, 1:n2+1, 1:n1+1] # since mgrid tends to 1st one as depth layer
 
 # Vectorise the grid
 xv = xx.flatten().reshape(-1, 1)
@@ -53,7 +53,7 @@ xintercept = np.ones([n, 1])
 # x2 = np.flipud(np.tile(np.arange(0, n3, 1), n1).reshape(-1, 1)).reshape(-1, 1)
 covars = np.hstack((xintercept, np.flipud(xv - 1), np.flipud(zv - 1))) # stack the vector to make it as [x0, x1, x2]
 ## ===== ##
-'''Note
+'''Noter
 Here covars only takes y direction as the major direction, so that the rest can be arranged as the distance with respect to one point
 To have distance decay so to make it as a regression problem
 '''
@@ -81,19 +81,10 @@ Ct = np.kron(C0, C) # final matrix considering depth variation & salinity & temp
 plotf(np.copy(Ct), "Covariance matrix for depth & salinity & temperature correlation")
 plotf(np.copy(C), "Pure matern matrix without salinty & temp correlation, without kronecker")
 plotf(np.copy(H), "Pure euclidean distance matrix") # distance matrix
+plotf3d(prior[0:n], xv, yv, zv) # plot the prior in 3D, it worked, but concern may arise when it comes to isomin and isomax
 
-plotf3d(prior[0:n], xv, yv, zv)
-# plotf3d(prior[n:], xv, yv, zv)
-# a = np.arange(0, 32).reshape(2, 4, 4)
-# b = a.flatten()
-# z, x, y = 1, 2, 3
-# ind = np.ravel_multi_index((z, x, y), (2, 4, 4))
-# print(a[z][x][y])
-# print(b[ind])
-# print(ind)
+init_trace = np.trace(Ct)
 
-#%%
-init_trace = np.trace(Ctd)
 # compute the ES prob for prior estimates
 pp = []
 for i in range(0, nf):

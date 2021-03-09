@@ -1,0 +1,12 @@
+Explanation of the files:
+----------------------------
+Evaluation_results - Stores data and plots from simulations
+es_cases - file to configure different ex.set cases and parameters
+es_strategies - file that define the different sampling strategy classes (which is used to find which WP to visit)
+Eval_Strat - runs the simulation with input from es_cases and es_strategies
+example_analysis - an example script that basically does the same as Eval_Strat, but for a specific study case
+read_analysis - used to make plots from simulations
+sensitivity_analusis_es - an example script that basically does the same as Eval_Strat, but for looks at sensitivity for different param.
+supporting_functions - collects some functions that are used other places in the code, and importantly the function "ExpectedVariance2" to evaluate the expected variances for the ex. set, this code also has a type of testing code that one can run to check the result from the functions. 
+
+The core of the analysis revolves around the ExpectedVariance2 function which is located in supporting_functions.py. To save time the function only evalues the expected variances at a sub-selection of locations given by the "eval_indexes" input.
