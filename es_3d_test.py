@@ -96,7 +96,6 @@ for i in range(0, nf):
 
 
 #%%
-
 # compute the expected variance
 prior_0 = np.copy(prior)
 Ct_0 = np.copy(Ct)
